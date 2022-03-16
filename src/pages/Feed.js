@@ -47,7 +47,7 @@ function Feed() {
       name: user.displayName,
       description: user.email,
       body: postBody,
-      photoUrl: user.photoUrl | "",
+      photoUrl: user.photoUrl,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
     // clear
