@@ -1,0 +1,49 @@
+.widgets {
+  position: sticky;
+  flex: 2;
+  top: 80px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.widgets__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.widgets__header > h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.widgets__feedItem {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.widgets__feedItem:hover {
+  background-color: whitesmoke;
+}
+
+.widgets__feedItemAvatar {
+  margin-right: 10px;
+}
+
+.widgets__feedItemContent {
+  flex: 1;
+}
+
+.widgets__feedItemContent > h4 {
+  font-style: 14px;
+}
+
+.widgets__feedItemContent > p {
+  font-size: 12px;
+  color: gray;
+}
